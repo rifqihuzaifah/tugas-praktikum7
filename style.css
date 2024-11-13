@@ -1,0 +1,18 @@
+{
+    text-align: center;
+    font-size: 24px;
+    color: blue;
+    font-family: 'Courier New', Courier, Monospace;
+    letter-spacing: 5px;
+}
+fieldset,legend {
+    border: 10px ridge aqua;
+    padding: 5px 10px;
+    border-radius: 45px;
+}
+legend{
+    background-color: gold;
+}
+fieldset{
+    background-color:red;
+}

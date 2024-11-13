@@ -1,0 +1,49 @@
+.container {
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#header,
+#navbar,
+#sidebar,
+#footer {
+  padding: 20px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#header {
+  background-color: rgb(57, 159, 118);
+
+}
+#navbar {
+  background-color:rgb(91, 15, 58);
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+.flex-container {
+  display: flex;
+  background-color: rgb(143, 169, 28);
+}
+
+#main {
+  background-color: rgb(201, 11, 23);
+  flex: 1;
+  padding: 20px;
+}
+
+#sidebar {
+  background-color:blue;
+  width: 200px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
